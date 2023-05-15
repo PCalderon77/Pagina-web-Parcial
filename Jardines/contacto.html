@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Mi Página Web</title>
+	<link rel="stylesheet" type="text/css" href="style-contac.css">
+</head>
+<body>
+	<header class="header-contac">
+		<div class="header-logo">
+		   <img src="../img/templatemo_logo.png" class="logo-1">
+           <h3>Eco Tree</h3>
+		</div>
+		<div class="header-contact">
+            <div class="header-contac-img">
+                <img src="../img/nav-contac.jpg" alt="" class="center">
+            </div>
+		</div>
+		<div class="header-menu">
+			<ul class="navbar-list">
+                <li class="navbar-list__item"><a href="index.html"><img class="item-header" src="../img/home.png" alt="">Inicio</a></li>
+                <div class="menu-divider"><img src="../img/templatemo_menu_divider.jpg" alt=""></div>
+                <li class="navbar-list__item"><a href="about.html"><img class="item-header" src="../img/my-account.png" alt="">Nosotros</a></li>
+                <div class="menu-divider"><img src="../img/templatemo_menu_divider.jpg" alt=""></div>
+                <li class="navbar-list__item"><a href="galeria.html"><img class="item-header" src="../img/drawings.png" alt="">Galeria</a></li>
+                <div class="menu-divider"><img src="../img/templatemo_menu_divider.jpg" alt=""></div>
+                <li class="navbar-list__item"><a href="servicio.html"><img class="item-header" src="../img/special-offer.png" alt="">Servicios</a></li>
+                <div class="menu-divider"><img src="../img/templatemo_menu_divider.jpg" alt=""></div>
+                <li class="navbar-list__item"><a href="contacto.html"><img class="item-header" src="../img/email.png" alt="">Contacto</a></li>
+                <div class="menu-divider"><img src="../img/templatemo_menu_divider.jpg" alt=""></div>
+            </ul>
+		</div>
+	</header>
+	<main class="main-contac">
+		<div class="main-container-contac">
+			<div class="main-section-1-contac">
+				<div class="main-item-1-contac">
+                    <h2 class="n-service-contac">Contacto</h2>
+				</div>
+				<div class="main-item-1-contac">
+                    <h3 class="n-service-contac">Envia tu mensaje</h3>
+				</div>
+				<div class="main-item-1-contac">
+                    <div class="form-container-contac">
+                        <form onsubmit="return submitForm(this)" class="formulario"
+                            action="https://formsubmit.co/pablocdm08@gmail.com" method="POST">
+                            <p>Nombre:</p>
+                            <input type="text" name="Nombre y apellido" id="name" placeholder="Nombre y apellido" required>
+                            <p>Email:</p>
+                            <input type="email" name="Correo electronico" id="email" placeholder="Correo electrónico" required>
+                            <p>Asunto:</p>
+                            <input type="text" name="Asunto" id="asunto" placeholder="Asunto" required>
+                            <p>Mensaje:</p>
+                            <textarea name="Mensaje" class="form-textarea" cols="30" rows="10" placeholder="Escribe tu consulta"
+                                required></textarea>
+                            <div class="form-buttons">
+                                <button class="reset-button" type="reset">Borrar todo</button>
+                                <button class="submit-button" type="submsit">Enviar</button>
+                            </div>
+                            <p class="warnings" id="warnings"></p>
+                            <input type="hidden" name="_template" value="table">
+                            <input type="hidden" name="_captcha" value="false">
+                            <input type="hidden" name="_subject" value="Contacto generico">
+                            <input type="hidden" name="_next" value="contacto.html">
+                        </form>
+                    </div>
+				</div>
+			</div>
+			<div class="main-section-2-contac">
+                <div class="main-item-2-contac">
+                    <h3 class="n-service-contac">Nuestros trabajos, clientes contentos!</h3>
+				</div>
+                <div class="main-section-2-contac-imagenes">
+                    <div class="contac-imagen-container"><img class="item" src="../img/1.jpg" alt=""></div>
+                    <div class="contac-imagen-container"><img class="item" src="../img/2.jpg" alt=""></div>
+                    <div class="contac-imagen-container"><img class="item" src="../img/3.jpg" alt=""></div>
+                    <div class="contac-imagen-container"><img class="item" src="../img/4.jpg" alt=""></div>
+                    <div class="contac-imagen-container"><img class="item" src="../img/5.jpg" alt=""></div>
+                    <div class="contac-imagen-container"><img class="item" src="../img/6.jpg" alt=""></div>
+                </div>
+                <a href="">Ver mas jardines..</a>
+            </div>
+		</div>
+	</main>
+    <footer class="footer-contac">
+        <div class="footer-top-contac">
+            <div class="footer-top-contac-container">
+                <div class="footer-top-contac-title"><h3>Nos puede encontrar en:</h3></div>
+                <div class="footer-top-contac-items">
+                    <a href="https://twitter.com/" target="_blank"><img class="item" src="../img/twitter2.png" alt=""></a>
+                    <a href="https://facebook.com/" target="_blank"><img class="item" src="../img/facebook.png" alt=""></a>
+                    <a href="https://vimeo.com/" target="_blank"><img class="item" src="../img/vimeo.png" alt=""></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img class="item" src="../img/youtube.png" alt=""></a>
+                </div>
+            </div>
+            <div class="footer-top-contac-container">
+                <div class="footer-top-contac-title"><h3>Nuestros servicios</h3></div>
+                <ul class="footer-list">
+                    <li class="footer-list-item">
+                        <p><img src="../img/hoja.png" alt="">Paisajismo</p>
+                    </li>
+                    <li class="footer-list-item">
+                        <p><img src="../img/hoja.png" alt="">Poda de arboles</p>
+                    </li>
+                    <li class="footer-list-item">
+                        <p><img src="../img/hoja.png" alt="">Plantas frutales de estación</p>
+                    </li>
+                    <li class="footer-list-item">
+                        <p><img src="../img/hoja.png" alt="">Huertas orgánicas</p>
+                    </li>
+                    <li class="footer-list-item">
+                        <p><img src="../img/hoja.png" alt="">Y cualquier inquietud que tengas sobre tu sistema de riego</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer-top-contac-container">
+                <div class="footer-top-contac-title"><h3>Nosotros</h3></div>
+                <div class="footer-top-contac-text">Somos una empresa cordobesa. Contamos con un equipo de profesionales, 
+                    con el fin de brindarles a nuestros clientes, un producto de calidad y el asesoramiento adecuado. 
+                    Poseemos una gran variedad de servicio, puede hacer su consulta</div>
+            </div>
+        </div>
+        <div class="footer-bottom-contac">
+
+        </div>
+    </footer>
+</body>
+</html>

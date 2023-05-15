@@ -1,0 +1,479 @@
+/* index */
+/* Establecemos el estilo para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0 110px;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+/* Establecemos el estilo para el header */
+.header-index {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #080808;
+  height: 350px;
+  margin-bottom: 15px;
+}
+
+/* Establecemos el estilo para el contenedor superior del header */
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  flex-flow: row nowrap;
+  width: 100%;
+  margin: 10px;
+  flex:4;
+  height:70%;
+}
+/* Establecemos el estilo para el contenedor del slider */
+.header-slider{
+  background: white;
+  flex: 8;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  margin: 2px;
+  margin-right: 5px;
+}
+
+
+.slider{
+  position: relative;
+  height: 100%;
+  width: 100%;
+    
+}
+
+.visible{
+  object-fit: cover;
+  width: 92%;
+  height: 100%;
+}
+
+.slider-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 30px;
+  text-decoration: none;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+}
+
+.slider-nav:last-of-type {
+  right: 0;
+}
+
+/* Establecemos el estilo para el contenedor del logo */
+.header-logo {
+  background-image: url(../img/templatemo_header.jpg);
+  background-size: cover;
+  flex: 3;
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column nowrap;
+  overflow: hidden;
+}
+.header-logo h3{
+ color: #635f5f;
+ flex: 1;
+ margin-left: 85px;
+}
+.logo-1{
+  flex: 3;
+  width: 50%;
+  height: 60%;
+  margin-left: 60px;
+  margin-top: 20px;
+}
+
+/* Establecemos el estilo para el contenedor del menu */
+.header-menu {
+  background-image: url(../img/templatemo_header.jpg);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  flex: 3;
+  width: 25%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 2px;
+  overflow: hidden;
+}
+.header-menu ul{
+  list-style: none;
+  width: 90%;
+  margin-top: 25px;
+
+}
+.header-menu li{
+  margin: 1px;
+  letter-spacing: -1px;
+}
+.header-menu a{
+  color: rgb(231, 117, 40);
+  margin-left: 5px;
+}
+
+.menu-divider img{
+  height: 2px;
+  width: 90%;
+}
+
+/* Establecemos el estilo para el contenedor inferior del header */
+.header-bottom {
+  display: flex;
+  flex: 1;
+  height: 30%;
+  justify-content: space-around;
+  width: 100%;
+  background-color: #95e4ff;
+  border-radius: 10px;
+}
+  
+  /* Establecemos el estilo para los contenedores de texto en el contenedor inferior del header */
+.header-text-container {
+  flex: 1;
+  text-align: center;
+  padding: 5px;
+  overflow: hidden;
+}
+.separator {
+  margin-top: 10px;
+  background-size: cover; 
+  background-position: center; 
+}
+.header-text-container h4{
+  margin-top: 0.3rem;
+}
+
+.header-text-container p{
+  margin-top: -0.5rem;
+}
+
+.header-text-container a{
+  color: #080808;
+  margin-left: 0.1rem;
+}
+  
+/* Establecemos el estilo para el main */
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  font: sans-serif;
+  margin-top: 30px;
+}
+.enlace{
+  background-image: url(../img/templatemo_more.jpg);
+  width: 60px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+}
+.enlace a{
+  background-size: cover;
+  font-size: 15px;
+  color: #080808;
+}
+
+/* Establecemos el estilo para el contenedor del primer conjunto de contenido en el main */
+.main-section-1 {
+  background-color: #d0dbec6c;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 1px;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+/* Establecemos el estilo para los contenedores de imagen y texto en el primer conjunto de contenido */
+.main-item-1 {
+  flex: 1;
+  text-align: center;
+  margin: 10px;
+}
+
+/* Establecemos el estilo para las imágenes en el primer conjunto de contenido */
+.main-item-1 img {
+  object-fit: cover;
+  width: 96%;
+  height: 95%;
+  border: 5px solid white;
+}
+
+/* Establecemos el estilo para el contenedor del segundo conjunto de contenido en el main */
+.main-section-2 {
+  background-color: #d0dbec6c;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 20px;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+/* Establecemos el estilo para el contenedor de imagen y texto en el segundo conjunto de contenido */
+.main-item-2 {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+/* Establecemos el estilo para las imágenes en el segundo conjunto de contenido */
+
+.container-img{
+  background-color: #fff;
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.main-item-2-contenedor img{
+  object-fit: cover;
+  width: 96%;
+  height: 95%;
+  border: 5px solid white;
+  margin-top: -2px;
+}
+
+#hamacas{
+  flex-grow: 2;
+  width: 66.67%;
+  margin: 25px;
+  display: flex;
+  margin-top: -5px;
+}
+.main-item-2-contenedor{
+  flex: 1;
+  width: 50%;
+  margin: 20px;
+  margin-left: -10px;
+  margin-top: -10px;
+  
+}
+.main-item-2-text{
+  flex: 1;
+  width: 50%;
+  margin-top: 40px;
+}
+#ideas{
+  flex-grow: 1;
+  width: 33.33%;
+  margin: 10px;
+  margin-top: -20px;
+}
+
+.ideas-text{
+  background-image: url(../img/templatemo_testimonial.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 200px;
+  align-items: center;
+  display: flex;
+  align-items: center;
+}
+.ideas-text p{
+  margin-top: -20px;
+  word-spacing: 5px;
+  margin-left: 24px;
+  margin-right: 25px;
+}
+/* Establecemos el estilo para el contenedor del tercer conjunto de contenido en el main */
+.main-section-3 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+ /* Establecemos el estilo para los contenedores de todo el contenido del main */
+.main-item-3 {
+  display: table;
+  width: 100%;
+  margin: 10px;
+}
+
+p{
+  text-align: justify;
+}
+a{
+  text-decoration: none;
+}
+
+@media (max-width: 960px) {
+  body{
+    margin: 0;
+    padding: 0;
+  }
+}
+@media (max-width: 600px) {
+  /* Estilos para pantallas menores o iguales a 600px */
+  body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+  }
+  header{
+    display: flex;
+    width: 100%;
+    height: 20%;
+  }
+  .header-menu {
+    margin: 1px;
+    overflow: hidden;
+  }
+  .header-menu ul{
+    list-style: none;
+    width: 90%;
+    margin-top: 10px;
+  }
+  .header-menu li{
+    margin: 1px;
+    letter-spacing: -1px;
+    margin-bottom: -8px;
+  }
+  .header-menu a{
+    color: rgb(231, 117, 40);
+    justify-content: start;
+    margin-left: -26px;
+  }
+  
+  .menu-divider img{
+    height: 2px;
+    width: 90%;
+    margin-left: -15px;
+  }
+  .header-logo {
+    width: 25%;
+    height: 110%;
+  }
+  .header-logo h3{
+   color: #635f5f;
+   flex: 1;
+   margin-left: 10px;
+  }
+  .logo-1{
+    flex: 3;
+    width: 50%;
+    height: 70%;
+    margin-left: 20px;
+    margin-top: 40px;
+  }
+  .visible{
+    object-fit: cover;
+    width: 85%;
+    height: 100%;
+  }
+  /* Establecemos el estilo para el contenedor inferior del header */
+ .header-bottom {
+   display: flex;
+   flex-direction: column nowrap;
+   flex: 1;
+   height: 100%;
+   justify-content: space-around;
+ }
+   
+   /* Establecemos el estilo para los contenedores de texto en el contenedor inferior del header */
+ .header-text-container {
+   flex: 1;
+   text-align: center;
+   padding: 5px;
+   overflow: hidden;
+ }
+ .separator {
+   margin-top: 10px;
+   background-size: cover; 
+   background-position: center; 
+ }
+
+   
+ /* Establecemos el estilo para el main */
+ main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   width: 100%;
+   margin-top: 90px;
+ }
+ 
+ .main-container{
+   display: flex;
+   flex-direction: column;
+
+ }
+ .main-section-1{
+   flex: 1;
+   width: 100%;
+   flex-direction: column;
+ 
+ }
+
+ .main-section-2{
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+  overflow: hidden;
+ }
+ .main-item-2{
+  display: flex;
+  flex: 1;
+  flex-direction: column nowrap;
+  width: 100%;
+
+ }
+ .main-item-2-contenedor{
+  width: 95%;
+ }
+ .main-item-2-text{
+  width: 90%;
+  margin-left: -30px;
+ }
+ #hamacas{
+  width: 100%;
+  flex-direction: column;
+ }
+ #ideas{
+  width: 100%;
+ }
+ .ideas-text{
+  background-size: cover;
+  background-repeat: no-repeat;
+ }
+ .main-section-3{
+  flex: 1;
+  width: 100%;
+  flex-direction: column;
+ }
+ .main-item-3{
+  width: 90%;
+
+ }
+ .footer-top-contac-items{
+   display: flex;
+   flex-flow: wrap;
+   width: 100%;
+ }
+ .item{
+   margin: 4px;
+  }
+
+}
